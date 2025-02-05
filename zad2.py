@@ -6,11 +6,13 @@ while True:
 
     #print(produkty)
     if item == 'koniec':
+        print()
         print("twoja lista")
-        for j in produkty:
-          for i in ilosc:
-              print(f'{j} - {i}szt.')
+        for i in range(len(produkty)):
+          
+            print(f'{produkty[i]} - {ilosc[i]}szt.')
         break
+        
 
 
     else:
